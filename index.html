@@ -74,9 +74,20 @@
 
 <div id="carouselExampleIndicators" class="carousel slide">
   <div class="carousel-indicators">
-    <button type="button" class="btn btn-light">▶Reproducir</button>
+    <button type="button" class="btn btn-light" >▶Reproducir</button>
     <hr>
-    <button type="button" class="btn btn-secondary">Mas info</button>
+     <button type="button" class="btn btn-light" >Ver Mas</button>
+    <!--
+     <button
+    type="button"
+    class="btn btn-light"
+    data-bs-toggle="modal"
+    data-bs-target="#modalSpiderman">
+
+    Ver más
+</button>
+    -->
+   
 
 
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -85,7 +96,8 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/2e/69/f1/2e69f1dd-d31d-38ae-198b-12a374a0526f/SPE_SPINSW_TH_SE_ARTWORK_SV_3840x2160_1QL6YU000000FZ.png/1200x675.jpg" class="d-block w-100" alt="...">
+      <img  data-bs-toggle="modal"
+    data-bs-target="#modalSpiderman" src="https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/2e/69/f1/2e69f1dd-d31d-38ae-198b-12a374a0526f/SPE_SPINSW_TH_SE_ARTWORK_SV_3840x2160_1QL6YU000000FZ.png/1200x675.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="https://www.beartai.com/wp-content/uploads/2024/06/FI_Demon-Slayer-Kimetsu-no-Yaiba-the-Movie-Infinity-Castle-Arc-1320x693.jpg" class="d-block w-100" alt="...">
@@ -93,7 +105,8 @@
   <script src="script.js"></script>
     </div>
     <div class="carousel-item">
-      <img src="https://img.youtube.com/vi/kQdEHQLHDAI/maxresdefault.jpg" class="d-block w-100" alt="...">
+      <img data-bs-toggle="modal"
+    data-bs-target="#modalYou" src="https://img.youtube.com/vi/kQdEHQLHDAI/maxresdefault.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -104,6 +117,14 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div>
+<div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Hola Pedro sigues con nosotros
+    </div>
+    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
 </div>
 
  <!--*MAFER CARRUSEL-->
@@ -169,7 +190,7 @@
 
   <!--Película Hellboy-->
     <div class="card bg-dark text-white border-0 shadow-sm">
-      <img src="assets/hellboy.jpg" class="card-img-top img-fluid" style="width:400px; height: 500px;" alt="Hellboy">
+      <img src="assets/hellboy.jpg" class="card-img-top img-fluid" style="width:300px; height: 500px;" alt="Hellboy">
       <div class="card-body">
         <h5 class="card-title">Hellboy</h5>
         <p class="card-text">Acción | Comedia | Sci-Fi | Horror</p>
@@ -179,7 +200,7 @@
 
     <!--Película Hellboy II-->
     <div class="card bg-dark text-white border-0 shadow-sm">
-      <img src="assets/hellboy2.jpg" class="card-img-top img-fluid" style="width:400px; height: 500px;" alt="Hellboy II: El ejercito dorado">
+      <img src="assets/hellboy2.jpg" class="card-img-top img-fluid" style="width:300px; height: 500px;" alt="Hellboy II: El ejercito dorado">
       <div class="card-body">
         <h5 class="card-title">Hellboy II: El ejercito dorado</h5>
         <p class="card-text">Acción | Comedia | Sci-Fi | Horror</p>
@@ -189,13 +210,55 @@
 
     <!--Película Deadpool-->
     <div class="card bg-dark text-white border-0 shadow-sm">
-      <img src="assets/deadpool.jpg" class="card-img-top img-fluid" style="width:400px; height: 500px;" alt="...">
+      <img src="assets/deadpool.jpg" class="card-img-top img-fluid" style="width:300px; height: 500px;" alt="Deadpool">
       <div class="card-body">
         <h5 class="card-title">Deadpool</h5>
         <p class="card-text">Comedia | Acción | Superhero | Drama</p>
         <span class="badge bg-danger">16+</span>
       </div>
     </div>
+
+    <!--Película Batman:Dark Knight-->
+    <div class="card bg-dark text-white border-0 shadow-sm">
+      <img src="assets/batman-darknight.jpg" class="card-img-top img-fluid" style="width:300px; height: 500px;" alt="Batman El Caballero de la Noche">
+      <div class="card-body">
+        <h5 class="card-title">Batman El Caballero de la Noche</h5>
+        <p class="card-text">Superhero | Drama | Acción | Sci-Fi </p>
+        <span class="badge bg-danger">16+</span>
+      </div>
+    </div>
+
+    <!--Película Batman:El caballero de la noche asciende-->
+    <div class="card bg-dark text-white border-0 shadow-sm">
+      <img src="assets/batman-asciende.png" class="card-img-top img-fluid" style="width:300px; height: 500px;" alt="Batman El Caballero de la Noche Asciende">
+      <div class="card-body">
+        <h5 class="card-title">Batman El Caballero de la Noche Asciende</h5>
+        <p class="card-text">Superhero | Drama | Acción | Sci-Fi </p>
+        <span class="badge bg-danger">16+</span>
+      </div>
+    </div>
+
+    <!--Película Deadpool 2-->
+    <div class="card bg-dark text-white border-0 shadow-sm">
+      <img src="assets/deadpool2.jpeg" class="card-img-top img-fluid" style="width:300px; height: 500px;" alt="Deadpool 2">
+      <div class="card-body">
+        <h5 class="card-title">Deadpool 2</h5>
+        <p class="card-text">Comedia | Acción | Superhero | Sci-Fi </p>
+        <span class="badge bg-danger">16+</span>
+      </div>
+    </div>
+
+    <!--Película X-men Días del futuro pasado-->
+    <div class="card bg-dark text-white border-0 shadow-sm">
+      <img src="assets/x-men-diasfuturopasado.jpg" class="card-img-top img-fluid" style="width:300px; height: 500px;" alt="X-men Días del futuro pasado">
+      <div class="card-body">
+        <h5 class="card-title">X-men Días del futuro pasado</h5>
+        <p class="card-text">Acción | Superhero | Sci-Fi | Thriller</p>
+        <span class="badge bg-danger">16+</span>
+      </div>
+    </div>
+
+
   </div>
 
 </section>
@@ -308,6 +371,247 @@
 
 </section>
 
+<!-- ==========================================
+     MODAL DE SPIDER-MAN
+     ========================================== -->
+
+<div
+    class="modal fade"
+    id="modalSpiderman"
+    tabindex="-1">
+
+    <!-- modal-lg = modal grande
+         modal-dialog-centered = modal centrado -->
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+
+        <!-- Contenido del modal -->
+        <div class="modal-content bg-dark text-white">
+
+
+            <!-- ==================================
+                 ENCABEZADO
+                 ================================== -->
+
+            <div class="modal-header">
+
+                <!-- Título de la película -->
+                <h5 class="modal-title">
+                    Spider-Man: Into the Spider-Verse
+                </h5>
+
+                <!-- Botón para cerrar -->
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+
+            <!-- ==================================
+                 CUERPO
+                 ================================== -->
+
+            <div class="modal-body">
+
+                <!-- Imagen responsiva -->
+                <img
+                    src="https://image.tmdb.org/t/p/original/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+                    class="img-fluid rounded mb-3"
+                    alt="Spider-Man Into the Spider-Verse">
+
+
+                <!-- Título -->
+                <h3 class="text-danger">
+                    Spider-Man: Into the Spider-Verse
+                </h3>
+
+
+                <!-- Información de la película -->
+                <p class="text-secondary">
+                    2018 | Animación | Acción | Aventura
+                </p>
+
+
+                <!-- Resumen -->
+                <p>
+                    Miles Morales descubre que existen diferentes
+                    versiones de Spider-Man provenientes de otros
+                    universos.
+
+                    Juntos tendrán que aprender a trabajar en equipo
+                    para detener una amenaza que podría destruir
+                    todos sus mundos.
+                </p>
+
+
+                <!-- Botones -->
+                <div class="d-flex gap-2">
+
+                    <!-- Botón principal -->
+                    <a
+    href="https://www.youtube.com/watch?v=g4Hbz2jLxvQ"
+    target="_blank"
+    class="btn btn-danger">
+
+    ▶ Ver tráiler </a>
+
+                    <!-- Botón secundario -->
+                    <button class="btn btn-outline-light">
+                        + Mi lista
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================================
+                 PIE DEL MODAL
+                 ================================== -->
+
+            <div class="modal-footer">
+
+                <!-- Botón para cerrar -->
+                <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+
+                    Cerrar
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ==========================================
+     MODAL DE LA SERIE YOU - eduardo
+     ========================================== -->
+
+<div
+    class="modal fade"
+    id="modalYou"
+    tabindex="-1">
+
+    <!-- Modal grande y centrado -->
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+
+        <!-- Contenido del modal -->
+        <div class="modal-content bg-dark text-white">
+
+
+            <!-- ==================================
+                 ENCABEZADO
+                 ================================== -->
+
+            <div class="modal-header">
+
+                <!-- Nombre de la serie -->
+                <h5 class="modal-title">
+                    You
+                </h5>
+
+                <!-- Botón para cerrar -->
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+
+            <!-- ==================================
+                 CUERPO DEL MODAL
+                 ================================== -->
+
+            <div class="modal-body">
+
+                <!-- Imagen de la serie -->
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsD4HFgUeTWDeY7WNCWT97vHaSqbUR6M2dB5gC47zTYA&s=10"
+                    class="img-fluid rounded mb-3"
+                    alt="Serie You">
+
+
+                <!-- Título -->
+                <h3 class="text-danger">
+                    You
+                </h3>
+
+
+                <!-- Información -->
+                <p class="text-secondary">
+                    2018 | Drama | Suspenso | Thriller
+                </p>
+
+
+                <!-- Resumen -->
+                <p>
+                    Joe Goldberg es un hombre aparentemente encantador
+                    que se obsesiona con las personas que le interesan.
+                </p>
+
+                <p>
+                    Utilizando las redes sociales y la tecnología,
+                    comienza a investigar sus vidas hasta llevar su
+                    obsesión demasiado lejos.
+                </p>
+
+
+                <!-- Botones -->
+                <div class="d-flex gap-2">
+
+                    <!-- Botón principal -->
+                   <a
+    href="https://www.youtube.com/watch?v=6YD0viMgZpg"
+    target="_blank"
+    class="btn btn-danger">
+
+    ▶ Ver tráiler
+
+</a>
+
+                    <!-- Botón secundario -->
+                    <button class="btn btn-outline-light">
+                        + Mi lista
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================================
+                 PIE DEL MODAL
+                 ================================== -->
+
+            <div class="modal-footer">
+
+                <!-- Botón cerrar -->
+                <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+
+                    Cerrar
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 
 
 

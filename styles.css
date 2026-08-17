@@ -1,3 +1,11 @@
+<div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Hola Pedro sigues con nosotros
+    </div>
+    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+</div>
 footer {
 
     background-color: black;
@@ -9,9 +17,7 @@ footer {
 
 .footer-container1 {
     display: inline-block;
-    margin: 20px;
-    
-    
+    margin: 20px;    
 }
 
 .footer-container2 {
