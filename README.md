@@ -1,6 +1,6 @@
 # Equipo 3
 
-# 🎬 Laboratorio Colaborativo: Clon de Plataforma Digital con Bootstrap
+# 🎬 Laboratorio Colaborativo: Clon de NETFLIX con Bootstrap
 
 ## 📌 Proyecto
 
@@ -189,16 +189,16 @@ https://www.markdownguide.org/cheat-sheet/
 
 ### 👨‍💻 Autores
 
-** Eduardo Alvarez Alvarez**
-** Fernando Ruperto**
-** Christian Pinal Cordero**
-** Diego Gonzales Celis**
-** Fernanda Enriquez**
-** Mafer Vazquez**
-** Alberto Pedraza**
-** Devani Moreno**
-** Brian Enrique Pineda Martínez**
-** Jose Eduardo **
+**Eduardo Alvarez Alvarez - Modales de info**
+**Fernando Ruperto - Sección de juegos**
+**Christian Pinal Cordero - Formulario**
+**Diego Gonzales Celis - Footer**
+**Fernanda Enriquez - Mensaje de alerta**
+**Mafer Vazquez - Carrusel de inicio**
+**Alberto Pedraza - Nav Bar**
+**Devani Moreno - Cards de películas**
+**Brian Enrique Pineda Martínez - Limpieza de código, render para enlaces**
+**Jose Eduardo - Cards de películas**
 
 Laboratorio Colaborativo — Clon de Plataforma Digital con Bootstrap
 
