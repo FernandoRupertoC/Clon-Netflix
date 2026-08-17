@@ -101,7 +101,8 @@
   <script src="script.js"></script>
     </div>
     <div class="carousel-item">
-      <img src="https://img.youtube.com/vi/kQdEHQLHDAI/maxresdefault.jpg" class="d-block w-100" alt="...">
+      <img data-bs-toggle="modal"
+    data-bs-target="#modalYou" src="https://img.youtube.com/vi/kQdEHQLHDAI/maxresdefault.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -356,9 +357,12 @@
                 <div class="d-flex gap-2">
 
                     <!-- Botón principal -->
-                    <button class="btn btn-danger">
-                        ▶ Reproducir
-                    </button>
+                    <a
+    href="https://www.youtube.com/watch?v=g4Hbz2jLxvQ"
+    target="_blank"
+    class="btn btn-danger">
+
+    ▶ Ver tráiler </a>
 
                     <!-- Botón secundario -->
                     <button class="btn btn-outline-light">
@@ -377,6 +381,128 @@
             <div class="modal-footer">
 
                 <!-- Botón para cerrar -->
+                <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+
+                    Cerrar
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ==========================================
+     MODAL DE LA SERIE YOU - eduardo
+     ========================================== -->
+
+<div
+    class="modal fade"
+    id="modalYou"
+    tabindex="-1">
+
+    <!-- Modal grande y centrado -->
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+
+        <!-- Contenido del modal -->
+        <div class="modal-content bg-dark text-white">
+
+
+            <!-- ==================================
+                 ENCABEZADO
+                 ================================== -->
+
+            <div class="modal-header">
+
+                <!-- Nombre de la serie -->
+                <h5 class="modal-title">
+                    You
+                </h5>
+
+                <!-- Botón para cerrar -->
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+
+            <!-- ==================================
+                 CUERPO DEL MODAL
+                 ================================== -->
+
+            <div class="modal-body">
+
+                <!-- Imagen de la serie -->
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsD4HFgUeTWDeY7WNCWT97vHaSqbUR6M2dB5gC47zTYA&s=10"
+                    class="img-fluid rounded mb-3"
+                    alt="Serie You">
+
+
+                <!-- Título -->
+                <h3 class="text-danger">
+                    You
+                </h3>
+
+
+                <!-- Información -->
+                <p class="text-secondary">
+                    2018 | Drama | Suspenso | Thriller
+                </p>
+
+
+                <!-- Resumen -->
+                <p>
+                    Joe Goldberg es un hombre aparentemente encantador
+                    que se obsesiona con las personas que le interesan.
+                </p>
+
+                <p>
+                    Utilizando las redes sociales y la tecnología,
+                    comienza a investigar sus vidas hasta llevar su
+                    obsesión demasiado lejos.
+                </p>
+
+
+                <!-- Botones -->
+                <div class="d-flex gap-2">
+
+                    <!-- Botón principal -->
+                   <a
+    href="https://www.youtube.com/watch?v=6YD0viMgZpg"
+    target="_blank"
+    class="btn btn-danger">
+
+    ▶ Ver tráiler
+
+</a>
+
+                    <!-- Botón secundario -->
+                    <button class="btn btn-outline-light">
+                        + Mi lista
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================================
+                 PIE DEL MODAL
+                 ================================== -->
+
+            <div class="modal-footer">
+
+                <!-- Botón cerrar -->
                 <button
                     type="button"
                     class="btn btn-secondary"
