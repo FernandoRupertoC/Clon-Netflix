@@ -3,19 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Bootstrap CSS -->
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
     <title>Netflex</title>
 
     <!--!Este link es para usar Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
-  </head>
-  <body>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
       <!--
     ===========================
         Nav var de Netflex
@@ -45,22 +39,32 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Novedades populares</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Mi lista</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Explorar por idiomas</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            🍿​
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">✏️​ Administrar perfiles</a></li>
+            <li><a class="dropdown-item" href="#">​🔁​ Transferir perfil</a></li>
+            <li><a class="dropdown-item" href="#">👤​ Cuenta</a></li>
+            <li><a class="dropdown-item" href="#">​❔​ Centro de ayuda</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Cerrar sesión en Netflix</a></li>
           </ul>
         </li>
       </ul>
+      <ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-success" type="submit">​🔍​</button>
       </form>
+      </ul>
     </div>
   </div>
 </nav>
@@ -113,6 +117,14 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div>
+<div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+      Hola Pedro sigues con nosotros
+    </div>
+    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
 </div>
 
  <!--*MAFER CARRUSEL-->
@@ -170,6 +182,45 @@
   </div>
 </div>
 </div>
+ 
+    <!--*Cards by devani-->
+<section class="netflix-catalog bg-dark text-white py-4 px-3">
+  <h3 class="mb-3 fw-bold">Películas de acción y superhéroes</h3>
+  <div class="card-group gap-3">
+
+  <!--Película Hellboy-->
+    <div class="card bg-dark text-white border-0 shadow-sm">
+      <img src="assets/hellboy.jpg" class="card-img-top img-fluid" style="width:400px; height: 500px;" alt="Hellboy">
+      <div class="card-body">
+        <h5 class="card-title">Hellboy</h5>
+        <p class="card-text">Acción | Comedia | Sci-Fi | Horror</p>
+        <span class="badge bg-danger">16+</span>
+      </div>
+    </div>
+
+    <!--Película Hellboy II-->
+    <div class="card bg-dark text-white border-0 shadow-sm">
+      <img src="assets/hellboy2.jpg" class="card-img-top img-fluid" style="width:400px; height: 500px;" alt="Hellboy II: El ejercito dorado">
+      <div class="card-body">
+        <h5 class="card-title">Hellboy II: El ejercito dorado</h5>
+        <p class="card-text">Acción | Comedia | Sci-Fi | Horror</p>
+        <span class="badge bg-danger">16+</span>
+      </div>
+    </div>
+
+    <!--Película Deadpool-->
+    <div class="card bg-dark text-white border-0 shadow-sm">
+      <img src="assets/deadpool.jpg" class="card-img-top img-fluid" style="width:400px; height: 500px;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Deadpool</h5>
+        <p class="card-text">Comedia | Acción | Superhero | Drama</p>
+        <span class="badge bg-danger">16+</span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
     
 <!-- Sección completa del formulario -->
 <section class="container py-5">
@@ -519,10 +570,62 @@
     </div>
 
 </div>
+
+
+
+
+
+<footer>
+
+
+
+    <div class="footer-container1">
+        <p class="text-footer">Audio descriptivo</p>
+        <p class="text-footer">Relaciones con inversionistas</p>
+        <p class="text-footer">Privacidad</p>
+        <p class="text-footer">Contactanos</p>
+
+
+        
+    </div>
     
 
+    <div class="footer-container2">
 
-   <!--!Este va hasta el final del body-->
+        <p class="text-footer">Centro de ayuda</p>
+        <p class="text-footer">Empleo</p>
+        <p class="text-footer">Avisos legales</p>
+
+    </div>
+    
+
+    <div class="footer-container3">
+        <p class="text-footer">Tarjetas de regalo</p>
+        <p class="text-footer">Netflix Shop</p>
+        <p class="text-footer">Preferencias de cookies</p>
+
+
+    </div>
+
+    
+
+    <div class="footer-container4">
+        <p class="text-footer">Prensa</p>
+        <p class="text-footer">Terminos de uso</p>
+        <p class="text-footer">Informacion corporativa</p>
+
+    </div>
+
+    <p>© 1997-2026 Netflix, Inc</p>
+
+</footer>
+
+
+
+
+
+    <!--!Este va hasta el final del body-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
+
