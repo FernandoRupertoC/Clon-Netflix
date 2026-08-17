@@ -1,4 +1,9 @@
 
+.contenedor-tarjetas {
+    display: flex;
+    gap: 20px;
+
+
 
 
 /** Fondo general de la página */
@@ -162,4 +167,5 @@ body {
     .btn-acento {
         width: 100%;
     }
+
 }
