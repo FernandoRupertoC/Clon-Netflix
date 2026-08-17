@@ -1,0 +1,50 @@
+footer {
+
+    background-color: black;
+    color: rgb(128, 126, 126);
+    padding: 20px;
+    text-align: center;
+}
+
+
+.footer-container1 {
+    display: inline-block;
+    margin: 20px;
+    
+    
+}
+
+.footer-container2 {
+    display: inline-block;
+    margin: 20px;
+    
+    
+}
+
+.footer-container3 {
+    display: inline-block;
+    margin: 20px;
+    
+    
+}
+
+.footer-container4 {
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+
+.text-footer1{
+    margin: 30px;
+}
+
+.text-footer2{
+    margin: 30px;
+}
+.text-footer3{
+    margin: 30px;
+}
+.text-footer4{
+    margin: 30px;
+}
