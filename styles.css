@@ -1,0 +1,165 @@
+
+
+
+/** Fondo general de la página */
+body {
+    margin: 0;
+
+    color: white;
+
+    background-color: #07090f;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** Contenedor completo del formulario */
+.newsletter {
+    padding: 50px;
+
+    background:
+        radial-gradient(
+            circle at 10% 20%,
+            rgba(123, 97, 255, 0.30),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #161b2d,
+            #0d101a
+        );
+
+    border: 1px solid rgba(255, 255, 255, 0.10);
+
+    border-radius: 30px;
+
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.30);
+}
+
+/** Texto pequeño encima del título */
+.sobrelinea {
+    color: #d5cfff;
+
+    font-size: 0.72rem;
+
+    font-weight: bold;
+
+    letter-spacing: 0.18em;
+}
+
+/** Título principal */
+.newsletter h2 {
+    margin: 10px 0 15px;
+
+    color: white;
+
+    font-size: clamp(2rem, 4vw, 3.2rem);
+
+    font-weight: bold;
+
+    line-height: 1.1;
+}
+
+/** Descripción y aviso de privacidad */
+.newsletter p,
+.newsletter .form-check-label {
+    color: #a9b0c0;
+}
+
+/** Espacio entre el texto y el formulario */
+.newsletter-texto {
+    padding-right: 50px;
+}
+
+/** Campo de correo electrónico */
+.newsletter .form-control {
+    min-height: 55px;
+
+    color: white;
+
+    background-color: rgba(255, 255, 255, 0.08);
+
+    border: 1px solid rgba(255, 255, 255, 0.16);
+
+    border-radius: 12px;
+}
+
+/** Texto provisional del campo */
+.newsletter .form-control::placeholder {
+    color: #8e95a4;
+}
+
+/** Campo seleccionado */
+.newsletter .form-control:focus {
+    color: white;
+
+    background-color: rgba(255, 255, 255, 0.12);
+
+    border-color: #ff3d71;
+
+    box-shadow: 0 0 0 4px rgba(255, 61, 113, 0.20);
+}
+
+/** Botón de suscripción */
+.btn-acento {
+    min-height: 55px;
+
+    color: white;
+
+    background: linear-gradient(
+        135deg,
+        #ff3d71,
+        #ff6848
+    );
+
+    border: none;
+
+    border-radius: 12px;
+
+    font-weight: bold;
+}
+
+/** Efecto del botón */
+.btn-acento:hover {
+    color: white;
+
+    filter: brightness(1.1);
+
+    transform: translateY(-2px);
+}
+
+/** Casilla seleccionada */
+.form-check-input:checked {
+    background-color: #ff3d71;
+
+    border-color: #ff3d71;
+}
+
+/** Adaptación para tabletas y celulares */
+@media (max-width: 991px) {
+    .newsletter {
+        padding: 35px 25px;
+    }
+
+    .newsletter-texto {
+        margin-bottom: 20px;
+
+        padding-right: 0;
+    }
+}
+
+/** Adaptación para celulares */
+@media (max-width: 575px) {
+    .newsletter {
+        padding: 30px 18px;
+
+        border-radius: 20px;
+    }
+
+    .newsletter h2 {
+        font-size: 2rem;
+    }
+
+    .btn-acento {
+        width: 100%;
+    }
+}
